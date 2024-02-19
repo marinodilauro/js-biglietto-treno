@@ -18,7 +18,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due cifre 
 - Creo una costante per il prezzo al km del biglietto (0.21€).
 - Creo una varaibile e le assegno il prezzo del biglietto dell'utente (sarà 0.21 moltiplicato il valore della variabile "km da percorrere").
 - Creo due variabili per lo sconto ai minorenni e per lo sconto agli over 65 anni.
-- Verifico se l'età dell'utente è minore di 18.
+- Verifico l'età dell'utente per applicare lo sconto.
   - SE è minore di 18:
     - Sottraggo al valore della variabile prezzo del biglietto il valore della variabile sconto ai minorenni e stampo il prezzo del biglietto arrotondando alla seconda cifra decimale e aggiungendo il simbolo €.
   - ALTRIMENTI SE è compresa fra 18 e 65:

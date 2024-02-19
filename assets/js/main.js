@@ -17,3 +17,8 @@ console.log(ticketBasePrice);
 
 let ticketFinalPrice = ticketBasePrice * travelDistance;
 console.log(ticketFinalPrice);
+
+// Creo due variabili per lo sconto ai minorenni e per lo sconto agli over 65 anni
+
+const minorsDiscount = 0.2;
+const seniorsDiscount = 0.4;

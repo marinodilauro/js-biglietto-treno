@@ -27,10 +27,10 @@ const seniorsDiscount = 0.4;
 
 if (userAge < 18) {
   const ticketMinorsPrice = ticketFinalPrice - (ticketFinalPrice * minorsDiscount);
-  alert(`Il biglietto costerà ${ticketMinorsPrice}€`);
+  alert(`Il biglietto costerà ${ticketMinorsPrice.toLocaleString("it-IT", { style: "currency", currency: "EUR" })}`);
 } else if (userAge >= 18 && userAge <= 65) {
-  alert(`Il biglietto costerà ${ticketFinalPrice}€`);
+  alert(`Il biglietto costerà ${ticketFinalPrice.toLocaleString("it-IT", { style: "currency", currency: "EUR" })}`);
 } else {
   const ticketSeniorsPrice = ticketFinalPrice - (ticketFinalPrice * seniorsDiscount);
-  alert(`Il biglietto costerà ${ticketSeniorsPrice}€`);
+  alert(`Il biglietto costerà ${ticketSeniorsPrice.toLocaleString("it-IT", { style: "currency", currency: "EUR" })}`);
 }
